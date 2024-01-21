@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+}
+.container{
+        width: 70%;
+        height: 40%;
+        border: 30px solid white;
+        border-radius: 28px;
+        background-color: white;
+        margin: 7%;
+}
+.personal_text{
+    box-sizing: border-box;
+    margin-top: 10%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+        overflow-clip-margin: content-box;
+    overflow: clip;
+    border-radius: 15px;
+}
+.personal_text h6 {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    color: #222222;
+}
+.personal_text h3 {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #222222;
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+}
+.personal_text h4 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #222222;
+}
+.personal_text p {
+    font-family: "Roboto", sans-serif;
+    max-width: 540px;
+    color: #777777;
+    margin-bottom: 40px;
+}
+.personal-info{
+    margin-left: 10%;
+}
+.personal_text .basic_info li {
+    margin-bottom: 15px;
+}
+.personal_text .basic_info li {
+    font-family: 'Linearicons-Free';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.personal_text .basic_info li i{
+    margin-right: 5px;
+}
+.personal_text .personal_social {
+    margin-top: 45px;
+}
+.personal_text .personal_social li {
+    display: inline-block;
+    margin-right: 7px;
+}
+.personal_text .personal_social li a {
+    line-height: 40px;
+    width: 40px;
+    background: #e8e8e8;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+.personal_text .personal_social li a:hover {
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+}
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
