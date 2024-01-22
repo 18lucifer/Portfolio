@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,12 +9,12 @@ body{
     background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
 }
 .container{
-        width: 70%;
+        width: 60%;
         height: 40%;
-        border: 30px solid white;
+        border: 20px solid white;
         border-radius: 28px;
         background-color: white;
-        margin: 7%;
+        margin: 3%;
 }
 .personal_text{
     box-sizing: border-box;
@@ -21,7 +23,7 @@ body{
 img {
     vertical-align: middle;
     border-style: none;
-        overflow-clip-margin: content-box;
+    overflow-clip-margin: content-box;
     overflow: clip;
     border-radius: 15px;
 }
@@ -99,3 +101,9 @@ a {
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
+
+  @media (max-width: 768px) {
+    .container {
+      display: block;
+    }
+  }
