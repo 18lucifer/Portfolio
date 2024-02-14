@@ -47,11 +47,16 @@
                 aria-current="page">Home</a>
             <a routerLink="/about"
                 class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About</a>
-            <a href="#"
+            <a routerLink="/services"
                 class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Services</a>
             <a routerLink="/contact"
                 class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contact</a>
-        </div>
+                <button class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" (click)="downloadCV()">Download CV</button>
+            </div>
     </div>
 </nav>
-<router-outlet></router-outlet>
+<app-home></app-home>
+<app-about></app-about>
+<app-services></app-services>
+<app-contact></app-contact>
+<!-- <router-outlet></router-outlet> -->
